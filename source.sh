@@ -1,3 +1,5 @@
+#!/bin/bash
+
 pacman -S kodi
 pacman -S wget 
 pacman -S git
@@ -15,5 +17,8 @@ flatpak install com.stremio.Stremio
 
 
 mkdir /home/kodish/.config/bing
+cd  /home/kodish/.config/bing
+wget 
+
 
 
