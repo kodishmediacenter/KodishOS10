@@ -21,5 +21,9 @@ cd  /home/kodish/.config/bing
 wget https://raw.githubusercontent.com/kodishmediacenter/KodishOS10/refs/heads/main/bing.sh
 chmod +x bing.sh
 
+mkdir /home/kodish/.config/openbox
+cd   /home/kodish/.config/openbox
+
+
 
 
