@@ -18,7 +18,8 @@ flatpak install com.stremio.Stremio
 
 mkdir /home/kodish/.config/bing
 cd  /home/kodish/.config/bing
-wget 
+wget https://raw.githubusercontent.com/kodishmediacenter/KodishOS10/refs/heads/main/bing.sh
+chmod +x bing.sh
 
 
 
