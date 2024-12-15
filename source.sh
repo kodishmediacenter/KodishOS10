@@ -23,7 +23,7 @@ chmod +x bing.sh
 
 mkdir /home/kodish/.config/openbox
 cd   /home/kodish/.config/openbox
-
+wget https://raw.githubusercontent.com/kodishmediacenter/KodishOS10/refs/heads/main/autostart
 
 
 
