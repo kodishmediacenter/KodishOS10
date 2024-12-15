@@ -14,3 +14,6 @@ flatpak install com.obsproject.Studio
 flatpak install com.stremio.Stremio
 
 
+mkdir /home/kodish/.config/bing
+
+
