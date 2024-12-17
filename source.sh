@@ -4,12 +4,19 @@ pacman -S kodi
 pacman -S wget 
 pacman -S git
 pacman -S firefox
-pacman -S lightdm lightdm-gtk-greeter
+pacman -S lightdm
+pacman -S lightdm-gtk-greeter
 systemctl enable lightdm.service
 pacman -S openbox
-pacman -S xfce-panel thunar mousepad xterm
-pacman -S jq kitty
-pacman -S xorg-xrandr arandr feh
+pacman -S xfce-panel
+pacman -S thunar
+pacman -S mousepad
+pacman -S xterm
+pacman -S jq 
+pacman -S kitty
+pacman -S xorg-xrandr
+pacman -S arandr
+pacman -S feh
 pacman -S flatpak
 flatpak install com.google.Chrome
 flatpak install com.obsproject.Studio
