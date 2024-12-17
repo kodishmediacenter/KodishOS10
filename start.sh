@@ -8,6 +8,7 @@ mkfs.ext4 /dev/sda2
 mount /dev/sda2 /mnt 
 mkdir /mnt/boot
 mkdir /mnt/boot/efi
+mount /dev/sda1 /mnt/boot
 pacstrap /mnt base base-devel linux linux-firmware nano vim dhcpcd
 genfstab -U -p /mnt >> /mnt/etc/fstab
 pacman -Scc
