@@ -2,7 +2,7 @@
 loadkeys br-abnt2
 pacman -Sy
 pacman -S dos2unix
-fdisk -l /dev/sda
+cfdisk
 mkfs.fat -F32 /dev/sda1
 mkfs.ext4 /dev/sda2 
 mount /dev/sda2 /mnt 
