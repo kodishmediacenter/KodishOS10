@@ -12,6 +12,7 @@ pacstrap /mnt base base-devel linux linux-firmware nano vim dhcpcd
 genfstab -U -p /mnt >> /mnt/etc/fstab
 pacman -Scc
 mkdir /mnt/kodish
+cd /mnt/kodish
 wget https://raw.githubusercontent.com/kodishmediacenter/KodishOS10/refs/heads/main/chroot.sh
 wget https://raw.githubusercontent.com/kodishmediacenter/KodishOS10/refs/heads/main/source.sh
 dos2unix chroot.sh
